@@ -118,10 +118,10 @@ class LitGuitar extends LitElement {
           letter: m.alfa[n],
           // subtract to get the new root.
           // if i don't add 12, it says -2 mod 12 = -2 .. wtf?
-          colour:
+          colour: this.highlight ?
             this.highlight.includes( (12+n - m.numb[this.key]) % 12) ?
             this.intervalColouring[m.intervals[(12+n - m.numb[this.key])%12]] :
-            null
+            null : null
         })
       });
     }

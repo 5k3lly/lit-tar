@@ -4,7 +4,7 @@ Basic guitar:
 ```
 <lit-tar></lit-tar>
 ```
-![example 1](/5k3lly/lit-tar/raw/master/eg1.png)
+![example 1](eg1.png)
 
 
 Ukulele:

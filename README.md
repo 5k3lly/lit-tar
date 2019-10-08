@@ -1,20 +1,20 @@
 # lit-tar
 
-Basic guitar:
+#### Basic guitar:
 ```
 <lit-tar></lit-tar>
 ```
 ![example 1](eg1.png)
 
 
-Ukulele:
+#### Ukulele:
 ```
 <lit-tar tuning='["G","C","E","A"]'></lit-tar>
 ```
 ![example 2](eg2.png)
 
 
-Show a scale (E-flat minor):
+#### Show a scale (E-flat minor):
 ```
 <lit-tar key='Eb' highlight='[0,2,3,4,7,8,10]'></lit-tar>
 ```

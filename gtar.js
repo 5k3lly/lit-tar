@@ -84,7 +84,7 @@ class LitGuitar extends LitElement {
       // 'horizontal' or 'vertical'
       orientation: { type: String },
 
-      // fret spacing (default f(x)=x)
+      // fret spacing (default f(x)=1)
       fretSpacing: { type: Function },
 
 

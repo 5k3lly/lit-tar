@@ -102,9 +102,9 @@ class LitGuitar extends LitElement {
     this.orientation = this.orientation || 'horizontal';
     // some debate on how best to colour them...
     this.intervalColouring = this.intervalColouring || {
-      'P1': '#4286f4', 'm2': '#8c8c8c', 'M2': '#606060', 'm3': '#a5a12e',
+      'P1': '#4286f4', 'm2': '#606060', 'M2': '#606060', 'm3': '#a37dd1',
       'M3': '#642ea5', 'P4': '#a53e2e', 'TT': '#000000', 'P5': '#1e6d1a',
-      'm6': '#8c8c8c', 'M6': '#606060', 'm6': '#a5a12e', 'M7': '#606060'
+      'm6': '#606060', 'M6': '#a5a12e', 'm7': '#a5a12e', 'M7': '#606060'
     }
 
     let o = [];

@@ -69,7 +69,7 @@ class LitGuitar extends LitElement {
       frets: { type: Number },
 
       // Array of strings, defaults to ['E','A','B','G','E']
-	    tuning: { type: Array },
+      tuning: { type: Array },
 
       // root note for intervals.
       key: { type: String },

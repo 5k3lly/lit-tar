@@ -37,7 +37,7 @@ class LitGuitar extends LitElement {
       display: block;
       margin: 0;
     }
-    div.guitar.horizontal div.note-container {
+    div.guitar:not(.vertical) div.note-container {
       border-right: 4px solid silver;
     }
 

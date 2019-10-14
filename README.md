@@ -16,7 +16,7 @@
 
 #### Show a scale (E-flat minor):
 ```
-<lit-tar key='Eb' highlight='[0,2,3,4,7,8,10]'></lit-tar>
+<lit-tar key='Eb' highlight='[0,2,3,5,7,8,10]'></lit-tar>
 ```
 ![example 2](eg3.png)
 
